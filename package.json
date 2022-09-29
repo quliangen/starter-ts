@@ -1,7 +1,7 @@
 {
   "name": "pkg-name",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1-beta.0",
   "packageManager": "pnpm@7.12.0",
   "description": "",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
@@ -38,7 +38,7 @@
   ],
   "scripts": {
     "build": "unbuild",
-    "dev": "unbuild --stub",
+    "dev": "unbuild --stub ",
     "lint": "eslint .",
     "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
